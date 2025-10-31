@@ -20,15 +20,21 @@ public class App {
             switch (option) {
                 case 1:
                     System.out.println("\nMetodo Seleccion");
-                    sortSelection.sort();
+                    sortSelection.printArray(numeros);
+                    sortSelection.sort(numeros,ordenOption,pasosOption);
+                    sortSelection.printArray(numeros);
                     break;
                 case 2:
                     System.out.println("\nMetodo Insercion");
-                    sortInsercion.sort();
+                    sortInsercion.printArray(numeros);
+                    sortInsercion.sort(numeros,ordenOption,pasosOption);
+                    sortInsercion.printArray(numeros);
                     break;
                 case 3:
                     System.out.println("\nMetodo Burbuja");
+                    sortBurbuja.printArray(numeros);
                     sortBurbuja.sort(numeros,ordenOption,pasosOption);
+                    sortBurbuja.printArray(numeros);
                     break;
                 case 4:
                     System.out.println("\nAdios");
