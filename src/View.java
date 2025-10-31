@@ -42,12 +42,10 @@ public class View {
                 option = scanner.nextInt();
                 if (option >= 1 && option <= max)
                     break;
-
             } else {
                 scanner.next();
             }
             System.out.print("Opcion Invalida: ");
-
         }
         return option;
     }

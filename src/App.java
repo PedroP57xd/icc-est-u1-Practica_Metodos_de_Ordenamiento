@@ -19,16 +19,16 @@ public class App {
 
             switch (option) {
                 case 1:
-                    System.out.println("\nmetodo Seleccion");
+                    System.out.println("\nMetodo Seleccion");
                     sortSelection.sort();
                     break;
                 case 2:
-                    System.out.println("\nMeotodo Insercion");
+                    System.out.println("\nMetodo Insercion");
                     sortInsercion.sort();
                     break;
                 case 3:
                     System.out.println("\nMetodo Burbuja");
-                    sortBurbuja.sort();
+                    sortBurbuja.sort(numeros,ordenOption,pasosOption);
                     break;
                 case 4:
                     System.out.println("\nAdios");
