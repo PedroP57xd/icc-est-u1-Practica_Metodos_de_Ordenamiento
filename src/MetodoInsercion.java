@@ -32,6 +32,8 @@ public class MetodoInsercion {
                 printArray(numeros);
             }
         }
+        System.out.println("\n--- Resultado final --");
+        System.out.print("Arreglo ordenado (" + (orden ? "Ascendente" : "Descendente") + "): \n");
     }
 
     public void printArray(int[] numeros) {

@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         View vista = new View();
-        int[] numeros = { 5, 9, 7, 0, -8, 15, 2 };
+        int[] numeros = {  19, 24, -19, -28, 5, 30, -12, 34, -9, 52, 0, 45 };
 
         MetodoSeleccion sortSelection = new MetodoSeleccion();
         MetodoInsercion sortInsercion = new MetodoInsercion();

@@ -45,7 +45,7 @@ public class MetodoBurbuja {
         }
 
         System.out.println("\n--- Resultado final ---");
-        System.out.print("Arreglo ordenado (" + (orden ? "Ascendente" : "Descendente") + "): ");
+        System.out.print("Arreglo ordenado (" + (orden ? "Ascendente" : "Descendente") + "): \n");
         printArray(numeros);
         System.out.println("Comparaciones: " + comparaciones);
         System.out.println("Movimientos: " + movimientos);
