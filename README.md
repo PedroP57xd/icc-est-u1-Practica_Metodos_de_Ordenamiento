@@ -24,7 +24,7 @@
 ### SORT BUBBLE MEJORADO 
 
     1. Metodo Sort Bubble Ascendente CON pasos
-![Ejercicio 1](Assets/burbujaDescePasos.png)
+![Ejercicio 1](Assets/burbujaAscePasos.png)
 
     2. Metodo Sort Bubble Descendente SIN pasos
-![Ejercicio 1](Assets/burbujaDescePasos.png) 
+![Ejercicio 1](Assets/burbujaDesceNoPasos.png.png) 
